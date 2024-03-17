@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_mvvm/res/colors/app_colors.dart';
 import 'package:getx_mvvm/res/components/rounded_button_widget.dart';
 import 'package:getx_mvvm/res/components/text_form_field_widget.dart';
-import 'package:getx_mvvm/view/auth_view/home_view.dart';
+import 'package:getx_mvvm/view/home_view/home_view.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});

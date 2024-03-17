@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:getx_mvvm/res/routes/route_names.dart';
 import 'package:getx_mvvm/view/auth_view/forgot_password_view.dart';
-import 'package:getx_mvvm/view/auth_view/home_view.dart';
+import 'package:getx_mvvm/view/home_view/home_view.dart';
 import 'package:getx_mvvm/view/auth_view/login_view.dart';
 import 'package:getx_mvvm/view/auth_view/signup_view.dart';
 import 'package:getx_mvvm/view/auth_view/splash_view.dart';
