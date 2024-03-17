@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_mvvm/res/getx_locilization/languages.dart';
 import 'package:getx_mvvm/res/routes/routes.dart';
-import 'package:getx_mvvm/view/splash_view.dart';
+import 'package:getx_mvvm/view/auth_view/splash_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       translations: Languages(),
-      locale: Locale('ur', 'PK'),
+      locale: Locale('en', 'US'),
       fallbackLocale: Locale('en', 'US'),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

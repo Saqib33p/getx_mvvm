@@ -10,9 +10,21 @@ class Languages extends Translations {
           'retry': "Retry",
           'general_exception':
               "We're unable to process your request.\n Please try again",
-          'login': "Login",
-          'welcome_back': 'Welcome\nBack',
-          'password_hint': 'Password',
+          'login': "LOGIN",
+          'signup': "SIGN UP",
+          'login_with_social_media': "Login with social media",
+          'welcome_back': 'Welcome Back',
+          'hello_signin': 'Hello\nSign In!',
+          'password': 'Password',
+          'gmail': "Gmail",
+          'forgotpassword': "Forgot Password?",
+          'dont_have_an_account': "Don't have an account",
+          'ssignup': "SignUp",
+          'fullname': "Full Name",
+          'yourfullname': "Your full name",
+          'alredy_have_account': "Already have an account",
+          'loginn': "Login",
+          'hello_signup': "Create your account"
         },
         'ur_PK': {
           'email_hint': 'asدسسدفاسف',
@@ -22,6 +34,20 @@ class Languages extends Translations {
           'general_exception':
               "ہم آپ کی درخواست پر کارروائی کرنے سے قاصر ہیں۔\n دوبارہ کوشش کریں",
           'login': "لاگ ان کریں",
+          'signup': "سائن اپ کریں",
+          'login_with_social_media': "سوشل میڈیا کے ساتھ لاگ ان کریں۔",
+          'welcome_back': 'خوش آمدید',
+          'hello_signin': 'ہیلو \n سائن ان کریں!',
+          'gmail': "جی میل",
+          'password': 'پاس ورڈ',
+          'forgotpassword': "پاسورڈ بھول گے؟",
+          'dont_have_an_account': "اکاؤنٹ نہیں ہے۔",
+          'ssignup': "سائن اپ",
+          'fullname': "پورا نام",
+          'yourfullname': "آپکا پورا نام",
+          'alredy_have_account': "پہلے سے ہی ایک اکاؤنٹ ہے۔",
+          'loginn': "لاگ ان",
+          'hello_signup': "اپنا اکاؤنٹ بناؤ"
         },
       };
 }

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_mvvm/res/assets/image_assets.dart';
 import 'package:getx_mvvm/res/assets/name_assets.dart';
-import 'package:getx_mvvm/view/wellcome_view.dart';
+import 'package:getx_mvvm/view/auth_view/wellcome_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
