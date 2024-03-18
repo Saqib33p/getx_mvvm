@@ -24,7 +24,14 @@ class Languages extends Translations {
           'yourfullname': "Your full name",
           'alredy_have_account': "Already have an account",
           'loginn': "Login",
-          'hello_signup': "Create your account"
+          'hello_signup': "Create your account",
+          'home': "Home",
+          'orders': "Orders",
+          'cart': "Cart",
+          'profile': "Profile",
+          'please_enter_name': "Please enter name",
+          'please_enter_email': "Please enter email",
+          'please_enter_password': "Please enter password",
         },
         'ur_PK': {
           'email_hint': 'asدسسدفاسف',
@@ -47,7 +54,14 @@ class Languages extends Translations {
           'yourfullname': "آپکا پورا نام",
           'alredy_have_account': "پہلے سے ہی ایک اکاؤنٹ ہے۔",
           'loginn': "لاگ ان",
-          'hello_signup': "اپنا اکاؤنٹ بناؤ"
+          'hello_signup': "اپنا اکاؤنٹ بنائیں",
+          'home': "ہوم",
+          'orders': "آرڈرز",
+          'cart': "کارٹ",
+          'profile': "پروفائل",
+          'please_enter_name': "براہ کرم نام درج کریں۔",
+          'please_enter_email': "براہ کرم ای میل درج کریں۔",
+          'please_enter_password': "براہ کرم پاس ورڈ درج کریں۔",
         },
       };
 }

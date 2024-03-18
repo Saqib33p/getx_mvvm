@@ -11,4 +11,6 @@ class RoutesName {
   static const String forgotpasswordview = '/forgot_password_view';
   //home screen route
   static const String homeview = '/home_view';
+  //main screen
+  static const String mainscreen = '/main_view';
 }

@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:getx_mvvm/res/routes/route_names.dart';
 import 'package:getx_mvvm/view/auth_view/forgot_password_view.dart';
+import 'package:getx_mvvm/view/home_view/main_view.dart';
 import 'package:getx_mvvm/view/home_view/home_view.dart';
 import 'package:getx_mvvm/view/auth_view/login_view.dart';
 import 'package:getx_mvvm/view/auth_view/signup_view.dart';
@@ -45,6 +46,13 @@ class AppRoutes {
         GetPage(
             name: RoutesName.homeview,
             page: () => HomeView(),
+            transitionDuration: Duration(milliseconds: 250),
+            transition: Transition.leftToRightWithFade),
+
+        // main screen page
+        GetPage(
+            name: RoutesName.mainscreen,
+            page: () => BottomNavigationBarView(),
             transitionDuration: Duration(milliseconds: 250),
             transition: Transition.leftToRightWithFade)
       ];

@@ -5,7 +5,6 @@ import 'package:getx_mvvm/res/assets/name_assets.dart';
 import 'package:getx_mvvm/res/colors/app_colors.dart';
 import 'package:getx_mvvm/res/components/rounded_button_widget.dart';
 import 'package:getx_mvvm/view/auth_view/login_view.dart';
-import 'package:getx_mvvm/view/auth_view/signup_view.dart';
 
 class WellcomeView extends StatelessWidget {
   const WellcomeView({super.key});
@@ -60,9 +59,7 @@ class WellcomeView extends StatelessWidget {
               ),
               RoundButtonWidget(
                 title: 'signup'.tr,
-                onPress: () {
-                  Get.to(() => SignUpView());
-                },
+                onPress: () {},
                 width: 250,
               ),
             ],

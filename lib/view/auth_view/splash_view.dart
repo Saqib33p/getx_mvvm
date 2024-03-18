@@ -1,10 +1,7 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:getx_mvvm/res/assets/image_assets.dart';
 import 'package:getx_mvvm/res/assets/name_assets.dart';
-import 'package:getx_mvvm/view/auth_view/wellcome_view.dart';
+import 'package:getx_mvvm/view_model/services/splash_services.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -14,13 +11,12 @@ class SplashView extends StatefulWidget {
 }
 
 class _SplashViewState extends State<SplashView> {
+  SplashServices splashServices = SplashServices();
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 3), () {
-      Get.offAll(WellcomeView());
-    });
+    splashServices.islogin();
   }
 
   @override
