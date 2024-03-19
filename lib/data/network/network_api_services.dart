@@ -32,7 +32,7 @@ class NetworApiServices extends BaseApiServices {
       ).timeout(Duration(seconds: 10));
       responseJson = returnResponse(response);
     } on SocketException {
-      throw FetchDataExeption('');
+      throw InternetExeption('');
     } on RequestTimeout {
       throw RequestTimeout('');
     } on ServerExeption {

@@ -4,7 +4,7 @@ import 'package:getx_mvvm/res/colors/app_colors.dart';
 import 'package:getx_mvvm/res/components/rounded_button_widget.dart';
 import 'package:getx_mvvm/res/routes/route_names.dart';
 import 'package:getx_mvvm/utils/utils.dart';
-import 'package:getx_mvvm/view_model/controller/signup_view_controller.dart';
+import 'package:getx_mvvm/view_model/controller/signup/signup_view_controller.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});

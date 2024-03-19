@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_mvvm/view_model/controller/botom_navigation_controller.dart';
+import 'package:getx_mvvm/view_model/controller/bootom_navigation/botom_navigation_controller.dart';
 import 'package:getx_mvvm/res/colors/app_colors.dart';
 import 'package:getx_mvvm/view/home_view/cart_view.dart';
 import 'package:getx_mvvm/view/home_view/home_view.dart';
@@ -16,7 +16,12 @@ class BottomNavigationBarView extends StatelessWidget {
   BottomNavigationController bottomNavigationController =
       Get.put(BottomNavigationController());
 
-  final screens = [HomeView(), OrdersView(), ProfileView(), CartView()];
+  final screens = [
+    HomeView(),
+    OrdersView(),
+    CartView(),
+    ProfileView(),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
